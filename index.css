@@ -1,0 +1,144 @@
+.logo{
+    width: 4em;
+    height: 4em;
+}
+
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #5546CB;
+    padding: 1.5em;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    gap: 1em;
+}
+
+
+.nav{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    color: #5546CB;
+    font-family: "Quicksand", sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.h-28{
+    height: 21em;
+}
+
+.bg-yellow{
+    background-color: #FCCD60;
+}
+
+.margin{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 10em;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrap-mobile{
+        flex-wrap:wrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text-align-mobile{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .image-mobile{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .center-mobile{
+        self-align: center;
+    }
+}
+
+section{
+    padding-bottom: 4em;
+}
+
+.card{
+    padding: 1.5em;
+    border: 1px solid #5546CB;
+    box-shadow:  1px 2px 0 rgba(0,0,0,.05);
+    text-align: center;
+    height: 28em;
+    width: 16em;
+}
+
+.card-img{
+    height: 15em;
+    width: 15em;
+    object-fit: cover;
+}
+
+.gap-3{
+    gap: 3em;
+}
+
+.rounded{
+    border-radius: 0.5em;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.formfield{
+    width: 20em;
+    height: 3em;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #5546CB;
+    border: 0.5px solid #5546CB;
+    padding-left: 1em;
+}
